@@ -1,0 +1,25 @@
+{
+    "things": [{
+        "id": 1,
+        "name": "Rock"
+    }, {
+        "id": 2,
+        "name": "Paper"
+    }, {
+        "id": 3,
+        "name": "Scissors"
+    }],
+    "people" : [{
+        "id": 1,
+        "name": "Moe"
+    }, {
+        "id": 2,
+        "name": "Larry"
+    }, {
+        "id": 3,
+        "name": "Curly"
+    }, {
+        "id": 4,
+        "name": "Shemp"
+    }]
+}

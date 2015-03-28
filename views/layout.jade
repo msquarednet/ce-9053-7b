@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css", rel="stylesheet") 
+    body
+        ul.nav.nav-tabs
+            for tab in tabs
+                li(class={active: tab.name == selected})
+                    a(href="/#{tab.path}")= tab.title
+                
+        .container
+            block content
